@@ -4,6 +4,7 @@ pipeline {
     stage('error') {
       steps {
         echo 'Hello, from Blue Ocean'
+        echo 'Hello again!'
       }
     }
 
