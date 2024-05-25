@@ -1,10 +1,9 @@
 pipeline {
-  agent any
+  agent { agent-01 }
   stages {
-    stage('error') {
+    stage('hello') {
       steps {
         echo 'Hello, from Blue Ocean'
-        echo 'Hello again!'
       }
     }
 
