@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        echo "Hello, from Blue Ocean --> $BUILD_NUMBER"
+        echo hello
         sh 'echo \'Build Number: $BUILD_NUMBER\''
       }
     }
