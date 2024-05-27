@@ -6,7 +6,7 @@ pipeline {
     stage('hello') {
       steps {
         echo "Build Number: $BUILD_NUMBER"
-        sh echo "Build Number: $BUILD_NUMBER"
+        sh 'echo "Build Number: $BUILD_NUMBER"'
       }
     }
 
