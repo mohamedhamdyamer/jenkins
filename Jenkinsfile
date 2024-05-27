@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        echo "Hello, from Blue Ocean --> $BUILD_NUMBER"
+        echo "Hello, from Blue Ocean --> $BUILD_NUMBER'
       }
     }
 
